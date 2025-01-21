@@ -2,6 +2,8 @@
 
 This repository contains the frontend code for the Moment of Us mobile app, a journaling app designed to help individuals and couples capture and share their life experiences, thoughts, and feelings.
 
+Project Status: In Progress
+
 ## Features
 
 * **Core Journaling:**
