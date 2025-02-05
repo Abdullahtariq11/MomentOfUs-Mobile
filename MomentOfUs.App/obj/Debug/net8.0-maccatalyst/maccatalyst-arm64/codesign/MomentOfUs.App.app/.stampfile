@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/MomentOfUs.App.app
