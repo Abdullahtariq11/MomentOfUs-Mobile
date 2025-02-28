@@ -1,29 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/MomentOfUs.App.csproj": {}
+    "C:\\Users\\abdul\\source\\repos\\Abdullahtariq11\\MomentOfUs-Mobile\\MomentOfUs.App\\MomentOfUs.App.csproj": {}
   },
   "projects": {
-    "/Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/MomentOfUs.App.csproj": {
+    "C:\\Users\\abdul\\source\\repos\\Abdullahtariq11\\MomentOfUs-Mobile\\MomentOfUs.App\\MomentOfUs.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/MomentOfUs.App.csproj",
+        "projectUniqueName": "C:\\Users\\abdul\\source\\repos\\Abdullahtariq11\\MomentOfUs-Mobile\\MomentOfUs.App\\MomentOfUs.App.csproj",
         "projectName": "MomentOfUs.App",
-        "projectPath": "/Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/MomentOfUs.App.csproj",
-        "packagesPath": "/Users/abdullahtariq/.nuget/packages/",
-        "outputPath": "/Users/abdullahtariq/Documents/GitHub/MomentOfUsMobile/MomentOfUs-Mobile/MomentOfUs.App/obj/",
+        "projectPath": "C:\\Users\\abdul\\source\\repos\\Abdullahtariq11\\MomentOfUs-Mobile\\MomentOfUs.App\\MomentOfUs.App.csproj",
+        "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdul\\source\\repos\\Abdullahtariq11\\MomentOfUs-Mobile\\MomentOfUs.App\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/abdullahtariq/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-android",
           "net8.0-ios",
-          "net8.0-maccatalyst"
+          "net8.0-maccatalyst",
+          "net8.0-windows10.0.19041.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +45,10 @@
           "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
+          },
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -50,7 +61,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-android34.0": {
@@ -75,7 +86,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             }
           },
@@ -110,14 +121,6 @@
             {
               "name": "Microsoft.Android.Runtime.34.android-x86",
               "version": "[34.0.147, 34.0.147]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -128,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
@@ -152,7 +155,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             }
           },
@@ -169,20 +172,12 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
               "name": "Microsoft.iOS.Ref.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
             },
             {
-              "name": "Microsoft.iOS.Runtime.iossimulator-arm64.net8.0_18.0",
+              "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -193,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
@@ -217,7 +212,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.12, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
             }
           },
@@ -235,20 +230,12 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
             },
             {
-              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net8.0_18.0",
+              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -259,7 +246,54 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        },
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.100, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.100, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -275,10 +309,13 @@
         "android-x86": {
           "#import": []
         },
-        "iossimulator-arm64": {
+        "iossimulator-x64": {
           "#import": []
         },
-        "maccatalyst-arm64": {
+        "maccatalyst-x64": {
+          "#import": []
+        },
+        "win10-x64": {
           "#import": []
         }
       }

@@ -57,18 +57,43 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Helpers\**" />
+	  <AndroidResource Remove="Models\**" />
+	  <AndroidResource Remove="Services\**" />
+	  <AndroidResource Remove="ViewModels\**" />
+	  <AndroidResource Remove="Views\**" />
+	  <Compile Remove="Helpers\**" />
+	  <Compile Remove="Models\**" />
+	  <Compile Remove="Services\**" />
+	  <Compile Remove="ViewModels\**" />
+	  <Compile Remove="Views\**" />
+	  <EmbeddedResource Remove="Helpers\**" />
+	  <EmbeddedResource Remove="Models\**" />
+	  <EmbeddedResource Remove="Services\**" />
+	  <EmbeddedResource Remove="ViewModels\**" />
+	  <EmbeddedResource Remove="Views\**" />
+	  <MauiCss Remove="Helpers\**" />
+	  <MauiCss Remove="Models\**" />
+	  <MauiCss Remove="Services\**" />
+	  <MauiCss Remove="ViewModels\**" />
+	  <MauiCss Remove="Views\**" />
+	  <MauiXaml Remove="Helpers\**" />
+	  <MauiXaml Remove="Models\**" />
+	  <MauiXaml Remove="Services\**" />
+	  <MauiXaml Remove="ViewModels\**" />
+	  <MauiXaml Remove="Views\**" />
+	  <None Remove="Helpers\**" />
+	  <None Remove="Models\**" />
+	  <None Remove="Services\**" />
+	  <None Remove="ViewModels\**" />
+	  <None Remove="Views\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Helpers/" />
-	  <Folder Include="Models/" />
-	  <Folder Include="Services/" />
-	  <Folder Include="ViewModels/" />
-	  <Folder Include="Views/" />
 	</ItemGroup>
 
 </Project>
