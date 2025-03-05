@@ -17,6 +17,14 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Extended.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Extended.UI.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.SceneGraph.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Skottie.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Views.iOS.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\SkiaSharp.Views.Maui.Core.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -51,6 +59,9 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Info.plist
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\CodeResources
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\libSkiaSharp
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
@@ -265,9 +276,9 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
-C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
-C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
-C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_CCEB81845DB931AA4625878B0F4B52839886D84A5B2BE5FD512E818A3995E54E.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_CCEB81845DB931AA4625878B0F4B52839886D84A5B2BE5FD512E818A3995E54E@2x.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_CCEB81845DB931AA4625878B0F4B52839886D84A5B2BE5FD512E818A3995E54E@3x.png
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png

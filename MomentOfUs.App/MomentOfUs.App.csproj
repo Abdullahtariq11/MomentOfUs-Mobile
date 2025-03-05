@@ -43,7 +43,6 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -58,35 +57,25 @@
 
 	<ItemGroup>
 	  <AndroidResource Remove="Helpers\**" />
-	  <AndroidResource Remove="Models\**" />
 	  <AndroidResource Remove="Services\**" />
-	  <AndroidResource Remove="ViewModels\**" />
-	  <AndroidResource Remove="Views\**" />
 	  <Compile Remove="Helpers\**" />
-	  <Compile Remove="Models\**" />
 	  <Compile Remove="Services\**" />
-	  <Compile Remove="ViewModels\**" />
-	  <Compile Remove="Views\**" />
 	  <EmbeddedResource Remove="Helpers\**" />
-	  <EmbeddedResource Remove="Models\**" />
 	  <EmbeddedResource Remove="Services\**" />
-	  <EmbeddedResource Remove="ViewModels\**" />
-	  <EmbeddedResource Remove="Views\**" />
 	  <MauiCss Remove="Helpers\**" />
-	  <MauiCss Remove="Models\**" />
 	  <MauiCss Remove="Services\**" />
-	  <MauiCss Remove="ViewModels\**" />
-	  <MauiCss Remove="Views\**" />
 	  <MauiXaml Remove="Helpers\**" />
-	  <MauiXaml Remove="Models\**" />
 	  <MauiXaml Remove="Services\**" />
-	  <MauiXaml Remove="ViewModels\**" />
-	  <MauiXaml Remove="Views\**" />
 	  <None Remove="Helpers\**" />
-	  <None Remove="Models\**" />
 	  <None Remove="Services\**" />
-	  <None Remove="ViewModels\**" />
-	  <None Remove="Views\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Splash\splash.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#FBBF24" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -94,6 +83,13 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+		<PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

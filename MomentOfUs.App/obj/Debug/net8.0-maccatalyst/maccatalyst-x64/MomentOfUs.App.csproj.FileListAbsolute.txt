@@ -17,6 +17,14 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Extended.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Extended.UI.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.SceneGraph.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Skottie.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.iOS.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Controls.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SkiaSharp.Views.Maui.Core.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -51,6 +59,7 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hans\Microsoft.Maui.Controls.resources.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\zh-Hant\Microsoft.Maui.Controls.resources.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\libSkiaSharp.framework.zip
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
