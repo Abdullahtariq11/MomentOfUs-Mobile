@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using MomentOfUs.App.Services;
+using MomentOfUs.App.ViewModels;
+using MomentOfUs.App.Views;
 using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace MomentOfUs.App;
@@ -18,8 +21,13 @@ public static class MauiProgram
             })
 			.UseSkiaSharp();
 
+        builder.Services.AddHttpClient();
+        builder.Services.AddSingleton<AuthService>();
+        builder.Services.AddTransient<LoginViewModel>();
+        builder.Services.AddTransient<LoginPage>();
+
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
 
 		return builder.Build();

@@ -57,17 +57,11 @@
 
 	<ItemGroup>
 	  <AndroidResource Remove="Helpers\**" />
-	  <AndroidResource Remove="Services\**" />
 	  <Compile Remove="Helpers\**" />
-	  <Compile Remove="Services\**" />
 	  <EmbeddedResource Remove="Helpers\**" />
-	  <EmbeddedResource Remove="Services\**" />
 	  <MauiCss Remove="Helpers\**" />
-	  <MauiCss Remove="Services\**" />
 	  <MauiXaml Remove="Helpers\**" />
-	  <MauiXaml Remove="Services\**" />
 	  <None Remove="Helpers\**" />
-	  <None Remove="Services\**" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -80,13 +74,18 @@
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
