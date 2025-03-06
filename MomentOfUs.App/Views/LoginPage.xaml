@@ -35,6 +35,7 @@
                BackgroundColor="White" BorderColor="#FDBA74" MinimumWidthRequest="300">
             <Entry Placeholder="Enter your username"
                    Keyboard="Email"
+                   Text="{Binding Email}"
                    ClearButtonVisibility="WhileEditing"
                    TextColor="#4B5563"
                    FontSize="17"/>
@@ -46,6 +47,7 @@
                    BackgroundColor="White" BorderColor="#FDBA74" MinimumWidthRequest="300">
                 <Entry Placeholder="Enter your Password"
                        IsPassword="True"
+                       Text="{Binding Password}"
                        ClearButtonVisibility="WhileEditing"
                        TextColor="#4B5563"
                        FontSize="17"/>
@@ -61,6 +63,13 @@
                 Margin="0,5,10,0"/>
         </VerticalStackLayout>
 
+        <!-- Error Message -->
+        <Label Text="{Binding ErrorMessage}"
+               TextColor="Red"
+               FontSize="14"
+               IsVisible="{Binding ErrorMessage, Converter={StaticResource StringToVisibilityConverter}}"
+               HorizontalOptions="Center"/>
+
         <!-- Login Button -->
         <Button
             Margin="0,25,0,0"
@@ -69,7 +78,8 @@
             FontSize="17"
             FontAttributes="Bold"
             HeightRequest="50"
-            CornerRadius="25"/>
+            CornerRadius="25"
+            Command="{Binding LoginCommand}"/>
 
         <!-- Signup Link -->
         <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Margin="10">

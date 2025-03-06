@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[8.4.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -88,6 +92,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
@@ -144,6 +152,10 @@
               "target": "Package",
               "version": "[8.4.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -161,6 +173,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
@@ -205,6 +221,10 @@
               "target": "Package",
               "version": "[8.4.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -222,6 +242,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",
@@ -267,6 +291,10 @@
               "target": "Package",
               "version": "[8.4.0, )"
             },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -278,6 +306,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SkiaSharp.Extended.UI.Maui": {
               "target": "Package",

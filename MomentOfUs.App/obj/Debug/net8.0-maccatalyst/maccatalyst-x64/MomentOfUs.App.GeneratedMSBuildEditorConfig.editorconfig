@@ -53,6 +53,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MomentOfUs.App.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/abdul/source/repos/Abdullahtariq11/MomentOfUs-Mobile/MomentOfUs.App/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MomentOfUs.App.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
 [C:/Users/abdul/source/repos/Abdullahtariq11/MomentOfUs-Mobile/MomentOfUs.App/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MomentOfUs.App.Views.LoginPage.xaml
