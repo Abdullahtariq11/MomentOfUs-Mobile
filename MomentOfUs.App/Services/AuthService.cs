@@ -11,11 +11,13 @@ namespace MomentOfUs.App.Services
     public class AuthService
     {
         private readonly HttpClient _httpClient;
-        private const string BaseUrl = "http://192.168.243.230:7241/api/Users";
+        private const string BaseUrl = "http://192.168.1.123:885/api/Users";
 
         public AuthService(HttpClient httpClient)
         {
+
             _httpClient = httpClient;
+
         }
 
         public async Task<string> LoginAsync(string email, string password,bool rememberMe)
@@ -26,7 +28,7 @@ namespace MomentOfUs.App.Services
                 {
                     Username = email,
                     Password = password,
-                    RememberMe = rememberMe
+                    RememberMe = false
 
                 };
                 var jsonContent = new StringContent(JsonConvert.SerializeObject(loginRequest), Encoding.UTF8, "application/json");
