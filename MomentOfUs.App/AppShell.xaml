@@ -25,7 +25,7 @@
         <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Journal" Icon="journalicon.png" Route="JournalPage">
+    <FlyoutItem Title="Journal" Icon="journalicon.png" Route="JournalPage" >
         <ShellContent ContentTemplate="{DataTemplate views:JournalPage}" />
     </FlyoutItem>
 
