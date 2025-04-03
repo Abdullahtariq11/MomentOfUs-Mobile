@@ -3,18 +3,35 @@
     x:Class="MomentOfUs.App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MomentOfUs.App"
     xmlns:views="clr-namespace:MomentOfUs.App.Views"
-    Shell.FlyoutBehavior="Disabled"
-    Title="MomentOfUs.App">
+    Shell.FlyoutBehavior="Flyout"
+    FlyoutBackgroundColor="#FEEBC8"
+    Shell.ForegroundColor="Black"
+    Shell.TitleColor="Black">
 
-    <ShellContent
-        Title="Login"
-        ContentTemplate="{DataTemplate views:LoginPage}"
-        Route="LoginPage" />
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate views:HomePage}"
-        Route="HomePage" />
+    <!-- Flyout Header -->
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="#FDBA74" Padding="20">
+            <Label Text="Hello, Abdullah 👋"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   FontFamily="PlaylistScript" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <!-- Flyout items -->
+    <FlyoutItem Title="Home" Icon="homeicon.png" Route="HomePage">
+        <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Journal" Icon="journalicon.png" Route="JournalPage">
+        <ShellContent ContentTemplate="{DataTemplate views:JournalPage}" />
+    </FlyoutItem>
+
+    <MenuItem Text="Logout"
+              IconImageSource="logouticon.png"
+              IsDestructive="True"
+              />
 
 </Shell>

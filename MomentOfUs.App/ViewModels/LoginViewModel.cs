@@ -41,7 +41,7 @@ namespace MomentOfUs.App.ViewModels
                 Preferences.Set("AuthToken", token);
 
                 // Navigate to Home Page
-                await Shell.Current.GoToAsync($"//{nameof(HomePage)}");
+                 Application.Current.MainPage = new AppShell();
             }
             else
             {
