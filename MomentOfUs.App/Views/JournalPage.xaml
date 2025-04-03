@@ -2,11 +2,99 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MomentOfUs.App.Views.JournalPage"
-             Title="JournalPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Journals"
+             BackgroundColor="#FEEBC8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <!--To create a new entry-->
+            <!-- CTA Button -->
+            <Button  Text="+ Create a new Journal"
+                     BackgroundColor="#FB923C"
+                     TextColor="White"
+                     FontSize="18"
+                     FontAttributes="Bold"
+                     HeightRequest="55"
+                     CornerRadius="25"
+                     HorizontalOptions="Fill" />
+            <Label
+                Text="Your Journals"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="#4B5563"
+                FontFamily="PlaylistScript"
+                FontSize="32"/>
+
+            <!-- Static Journal List -->
+            <Frame CornerRadius="12" Padding="10" BackgroundColor="White" BorderColor="#FDBA74" HasShadow="True">
+                <VerticalStackLayout>
+                    <Label Text="Morning Reflections" FontSize="16" FontAttributes="Bold" TextColor="#4B5563" />
+                    <Label Text="Apr 2, 2025" FontSize="13" TextColor="#9B2C2C" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="12" Padding="10" BackgroundColor="White" BorderColor="#FDBA74" HasShadow="True">
+                <VerticalStackLayout>
+                    <Label Text="Baby’s First Kick" FontSize="16" FontAttributes="Bold" TextColor="#4B5563" />
+                    <Label Text="Mar 25, 2025" FontSize="13" TextColor="#9B2C2C" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame CornerRadius="12" Padding="10" BackgroundColor="White" BorderColor="#FDBA74" HasShadow="True">
+                <VerticalStackLayout>
+                    <Label Text="That Sunset Hike" FontSize="16" FontAttributes="Bold" TextColor="#4B5563" />
+                    <Label Text="Mar 18, 2025" FontSize="13" TextColor="#9B2C2C" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label
+                 Text="Shared Journals"
+                 FontAttributes="Bold"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"
+                 TextColor="#4B5563"
+                 FontFamily="PlaylistScript"
+                 FontSize="32"/>
+            <!-- Read-Only -->
+            <Label Text="🔒 Read-Only"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource AppText}"/>
+
+            <Frame CornerRadius="15" Padding="12" BackgroundColor="White" BorderColor="{StaticResource AppAccent}">
+                <VerticalStackLayout Spacing="2">
+                    <Label Text="📔 Partner’s Memory" FontAttributes="Bold" TextColor="{StaticResource AppText}" />
+                    <Label Text="🕒 Mar 18, 2025" FontSize="12" TextColor="{StaticResource AppAlert}" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Writable -->
+            <Label Text="✍️ Writable"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource AppText}"/>
+
+            <Frame CornerRadius="15" Padding="12" BackgroundColor="White" BorderColor="{StaticResource AppAccent}">
+                <VerticalStackLayout Spacing="2">
+                    <Label Text="📔 Family Collab Journal" FontAttributes="Bold" TextColor="{StaticResource AppText}" />
+                    <Label Text="🕒 Mar 20, 2025" FontSize="12" TextColor="{StaticResource AppAlert}" />
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Footer -->
+            <Label Text="© Abdullah Tariq"
+                   FontSize="12"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{StaticResource AppText}"
+                   Margin="0,30,0,10"/>
+
+        </VerticalStackLayout>
+
+
+
+
+    </ScrollView>
+
 </ContentPage>
