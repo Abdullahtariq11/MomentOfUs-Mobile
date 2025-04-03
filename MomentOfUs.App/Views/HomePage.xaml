@@ -1,12 +1,122 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
              x:Class="MomentOfUs.App.Views.HomePage"
-             Title="HomePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             BackgroundColor="#FEEBC8"
+             Shell.NavBarIsVisible="True"
+             Title="Home">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <!-- Top Header Section -->
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                <!-- Lottie Animation -->
+                <skia:SKLottieView
+                    x:Name="LottieAnimation"
+                    Source="logo_animation.json"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsAnimationEnabled="True"
+                    RepeatMode="Restart"
+                    RepeatCount="2"
+                    HeightRequest="100"
+                    WidthRequest="100" />
+
+                <!-- Greeting -->
+                <Label Text="Hello, Abdullah 👋"
+                       VerticalOptions="Center"
+                       FontSize="32"
+                       TextColor="#4B5563"
+                       FontFamily="PlaylistScript"
+                       FontAttributes="Bold" />
+            </HorizontalStackLayout>
+
+            <!-- CTA Button -->
+            <Button Text="+ Write in My Journal"
+                    BackgroundColor="#FB923C"
+                    TextColor="White"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    HeightRequest="55"
+                    CornerRadius="25"
+                    HorizontalOptions="Fill" />
+
+            <!-- Quote Section -->
+            <Label Text="“Memories are timeless treasures of the heart.”"
+                   FontSize="16"
+                   FontAttributes="Italic"
+                   TextColor="#4B5563"
+                   HorizontalTextAlignment="Center"
+                   Margin="10,0,10,0" />
+
+            <!-- Recent Memories Header -->
+            <Label Text="Recent Memories"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   TextColor="#4B5563"
+                   Margin="0,10,0,0" />
+
+            <!-- Recent Entries -->
+            <VerticalStackLayout Spacing="15">
+                <!-- Entry 1 -->
+                <Frame CornerRadius="15"
+                       Padding="12"
+                       BackgroundColor="White"
+                       BorderColor="#FDBA74"
+                       HasShadow="True">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="📔 Anniversary Walk"
+                               FontSize="17"
+                               FontAttributes="Bold"
+                               TextColor="#4B5563" />
+                        <Label Text="We laughed so much that evening..."
+                               FontSize="14"
+                               TextColor="#4B5563" />
+                        <Label Text="🕒 Mar 24"
+                               FontSize="12"
+                               TextColor="#9B2C2C" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Entry 2 -->
+                <Frame CornerRadius="15"
+                       Padding="12"
+                       BackgroundColor="White"
+                       BorderColor="#FDBA74"
+                       HasShadow="True">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Text="📔 First Ultrasound"
+                               FontSize="17"
+                               FontAttributes="Bold"
+                               TextColor="#4B5563" />
+                        <Label Text="The heartbeat... we both cried."
+                               FontSize="14"
+                               TextColor="#4B5563" />
+                        <Label Text="🕒 Mar 20"
+                               FontSize="12"
+                               TextColor="#9B2C2C" />
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+
+            <!-- View All Journals Button -->
+            <Button Text="📚 View All Journals"
+                    BackgroundColor="#FDBA74"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    HorizontalOptions="Fill" />
+
+            <!-- Footer -->
+            <Label Text="© Abdullah Tariq — All rights reserved"
+                   FontSize="12"
+                   TextColor="#4B5563"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,30,0,10" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -1081,3 +1081,7 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\resizetizer\r\drawable\homeicon.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\resizetizer\r\drawable\journalicon.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\resizetizer\r\drawable\logouticon.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-android\resizetizer\r\drawable\settingicon.png
