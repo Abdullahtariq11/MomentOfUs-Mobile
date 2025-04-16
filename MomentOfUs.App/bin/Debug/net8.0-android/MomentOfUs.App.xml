@@ -4,6 +4,81 @@
         <name>MomentOfUs.App</name>
     </assembly>
     <members>
+        <member name="T:MomentOfUs.App.Dtos.JournalEntryUpdateDto">
+            <inheritdoc/>
+        </member>
+        <member name="P:MomentOfUs.App.Dtos.JournalEntryUpdateDto.Content">
+            <inheritdoc cref="F:MomentOfUs.App.Dtos.JournalEntryUpdateDto.content"/>
+        </member>
+        <member name="P:MomentOfUs.App.Dtos.JournalEntryUpdateDto.Mood">
+            <inheritdoc cref="F:MomentOfUs.App.Dtos.JournalEntryUpdateDto.mood"/>
+        </member>
+        <member name="M:MomentOfUs.App.Services.JournalService.GetJournalsAsync">
+            <summary>
+            Get all journals for the current user
+            </summary>
+        </member>
+        <member name="M:MomentOfUs.App.Services.JournalService.GetSharedJournalsAsync">
+            <summary>
+            Get all shared journals for the user
+            </summary>
+        </member>
+        <member name="M:MomentOfUs.App.Services.JournalService.GetJournalByIdAsync(System.String)">
+            <summary>
+            Get Journal By Id
+            </summary>
+        </member>
+        <member name="M:MomentOfUs.App.Services.JournalService.GetJournalEntriesAsync(System.String)">
+            <summary>
+            Fetch journal entries by JournalId
+            </summary>
+        </member>
+        <member name="M:MomentOfUs.App.Services.JournalService.DeleteJournalEntry(System.String,System.String)">
+            <summary>
+             Delete Journal Entry using JournalId and JournalEntryId
+             </summary>
+             
+        </member>
+        <member name="T:MomentOfUs.App.ViewModels.JournalDetailViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.Id">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.id"/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.IsLoading">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.isLoading"/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.AvailableColors">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.availableColors"/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.SelectedColor">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.selectedColor"/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.PageBackgroundColor">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.pageBackgroundColor"/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.CurrentEntry">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.currentEntry"/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.EditingEntryId">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalDetailViewModel.editingEntryId"/>
+        </member>
+        <member name="M:MomentOfUs.App.ViewModels.JournalDetailViewModel.OnIdChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.Id"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.Id"/> is changed.</remarks>
+        </member>
+        <member name="M:MomentOfUs.App.ViewModels.JournalDetailViewModel.OnSelectedColorChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.SelectedColor"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:MomentOfUs.App.ViewModels.JournalDetailViewModel.SelectedColor"/> is changed.</remarks>
+        </member>
+        <member name="T:MomentOfUs.App.ViewModels.JournalViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MomentOfUs.App.ViewModels.JournalViewModel.IsLoading">
+            <inheritdoc cref="F:MomentOfUs.App.ViewModels.JournalViewModel.isLoading"/>
+        </member>
         <member name="T:MomentOfUs.App.ViewModels.LoginViewModel">
             <inheritdoc/>
         </member>
@@ -28,6 +103,33 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Content">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Content" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Mood">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Mood" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AvailableColors">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AvailableColors" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PageBackgroundColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PageBackgroundColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentEntry">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentEntry" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EditingEntryId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EditingEntryId" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
         </member>
@@ -40,14 +142,38 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorMessage">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoading">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoading" generated properties.</summary>
-        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Content">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Content" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Mood">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Mood" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AvailableColors">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AvailableColors" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PageBackgroundColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PageBackgroundColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentEntry">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentEntry" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EditingEntryId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EditingEntryId" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
@@ -60,9 +186,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorMessage">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoading">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoading" generated properties.</summary>
         </member>
     </members>
 </doc>

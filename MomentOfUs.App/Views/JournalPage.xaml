@@ -1,100 +1,146 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MomentOfUs.App.Views.JournalPage"
-             Title="Journals"
-             BackgroundColor="#FEEBC8">
+<ContentPage
+    x:Class="MomentOfUs.App.Views.JournalPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Journals"
+    BackgroundColor="#FEEBC8">
 
-    <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="25">
+    <Grid Padding="20" RowDefinitions="Auto,*,Auto">
 
-            <!--To create a new entry-->
-            <!-- CTA Button -->
-            <Button  Text="+ Create a new Journal"
-                     BackgroundColor="#FB923C"
-                     TextColor="White"
-                     FontSize="18"
-                     FontAttributes="Bold"
-                     HeightRequest="55"
-                     CornerRadius="25"
-                     HorizontalOptions="Fill" />
-            <Label
-                Text="Your Journals"
-                FontAttributes="Bold"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                TextColor="#4B5563"
-                FontFamily="PlaylistScript"
-                FontSize="32"/>
+        <!--  Page Title  -->
+        <Label
+            Grid.Row="0"
+            Margin="0,10,0,10"
+            FontAttributes="Bold"
+            FontFamily="PlaylistScript"
+            FontSize="28"
+            HorizontalOptions="Center"
+            Text="📓 My Journals"
+            TextColor="#4B5563" />
 
-            <!-- Static Journal List -->
-            <Frame CornerRadius="12" Padding="10" BackgroundColor="White" BorderColor="#FDBA74" HasShadow="True">
-                <VerticalStackLayout>
-                    <Label Text="Morning Reflections" FontSize="16" FontAttributes="Bold" TextColor="#4B5563" />
-                    <Label Text="Apr 2, 2025" FontSize="13" TextColor="#9B2C2C" />
-                </VerticalStackLayout>
-            </Frame>
+        <!--  Main Content Scroll  -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="30">
 
-            <Frame CornerRadius="12" Padding="10" BackgroundColor="White" BorderColor="#FDBA74" HasShadow="True">
-                <VerticalStackLayout>
-                    <Label Text="Baby’s First Kick" FontSize="16" FontAttributes="Bold" TextColor="#4B5563" />
-                    <Label Text="Mar 25, 2025" FontSize="13" TextColor="#9B2C2C" />
-                </VerticalStackLayout>
-            </Frame>
+                <!--  Create New Journal Button  -->
+                <Button
+                    Padding="20,10"
+                    BackgroundColor="#FB923C"
+                    CornerRadius="25"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    HeightRequest="55"
+                    HorizontalOptions="FillAndExpand"
+                    Text="+ Create a New Journal"
+                    TextColor="White" />
 
-            <Frame CornerRadius="12" Padding="10" BackgroundColor="White" BorderColor="#FDBA74" HasShadow="True">
-                <VerticalStackLayout>
-                    <Label Text="That Sunset Hike" FontSize="16" FontAttributes="Bold" TextColor="#4B5563" />
-                    <Label Text="Mar 18, 2025" FontSize="13" TextColor="#9B2C2C" />
-                </VerticalStackLayout>
-            </Frame>
+                <!--  Your Journals  -->
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="📝 Your Journals"
+                    TextColor="#4B5563" />
 
-            <Label
-                 Text="Shared Journals"
-                 FontAttributes="Bold"
-                 HorizontalOptions="Center"
-                 VerticalOptions="Center"
-                 TextColor="#4B5563"
-                 FontFamily="PlaylistScript"
-                 FontSize="32"/>
-            <!-- Read-Only -->
-            <Label Text="🔒 Read-Only"
-                   FontSize="16"
-                   FontAttributes="Bold"
-                   TextColor="{StaticResource AppText}"/>
+                <CollectionView
+                    Margin="0,0,0,10"
+                    ItemsSource="{Binding Journals}"
+                    SelectionMode="None">
+                    <CollectionView.EmptyView>
+                        <Label Text="You haven't created any journals yet." TextColor="Red" />
+                    </CollectionView.EmptyView>
 
-            <Frame CornerRadius="15" Padding="12" BackgroundColor="White" BorderColor="{StaticResource AppAccent}">
-                <VerticalStackLayout Spacing="2">
-                    <Label Text="📔 Partner’s Memory" FontAttributes="Bold" TextColor="{StaticResource AppText}" />
-                    <Label Text="🕒 Mar 18, 2025" FontSize="12" TextColor="{StaticResource AppAlert}" />
-                </VerticalStackLayout>
-            </Frame>
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="15" Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
 
-            <!-- Writable -->
-            <Label Text="✍️ Writable"
-                   FontSize="16"
-                   FontAttributes="Bold"
-                   TextColor="{StaticResource AppText}"/>
+                            <Frame
+                                Padding="15"
+                                BackgroundColor="White"
+                                BorderColor="#FDBA74"
+                                CornerRadius="15"
+                                HasShadow="True">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.JournalTappedCommand}" CommandParameter="{Binding Id}" />
+                                </Frame.GestureRecognizers>
+                                <VerticalStackLayout Spacing="6">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        Text="{Binding Title}"
+                                        TextColor="#4B5563" />
+                                    <Label
+                                        FontSize="13"
+                                        Text="{Binding CreatedAt, StringFormat='{}{0:MMM d, yyyy}'}"
+                                        TextColor="#9B2C2C" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
 
-            <Frame CornerRadius="15" Padding="12" BackgroundColor="White" BorderColor="{StaticResource AppAccent}">
-                <VerticalStackLayout Spacing="2">
-                    <Label Text="📔 Family Collab Journal" FontAttributes="Bold" TextColor="{StaticResource AppText}" />
-                    <Label Text="🕒 Mar 20, 2025" FontSize="12" TextColor="{StaticResource AppAlert}" />
-                </VerticalStackLayout>
-            </Frame>
+                <!--  Shared Journals  -->
+                <Label
+                    Margin="0,20,0,0"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="🤝 Shared With You"
+                    TextColor="#4B5563" />
 
-            <!-- Footer -->
-            <Label Text="© Abdullah Tariq"
-                   FontSize="12"
-                   HorizontalTextAlignment="Center"
-                   TextColor="{StaticResource AppText}"
-                   Margin="0,30,0,10"/>
+                <CollectionView
+                    Margin="0,0,0,10"
+                    ItemsSource="{Binding SharedJournals}"
+                    SelectionMode="None">
+                    <CollectionView.EmptyView>
+                        <Label
+                            HorizontalTextAlignment="Center"
+                            Text="You haven't created any journals yet."
+                            TextColor="Red" />
+                    </CollectionView.EmptyView>
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="15" Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame
+                                Padding="15"
+                                BackgroundColor="White"
+                                BorderColor="#FDBA74"
+                                CornerRadius="15"
+                                HasShadow="True">
+                                <VerticalStackLayout Spacing="6">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        Text="{Binding Title}"
+                                        TextColor="#4B5563" />
+                                    <Label
+                                        FontSize="13"
+                                        Text="{Binding PermissionText}"
+                                        TextColor="#6B7280" />
+                                    <Label
+                                        FontSize="13"
+                                        Text="{Binding CreatedAt, StringFormat='{}{0:MMM d, yyyy}'}"
+                                        TextColor="#9B2C2C" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
 
-        </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
 
+        <!--  Footer  -->
+        <Label
+            Grid.Row="2"
+            Margin="0,10,0,10"
+            FontSize="12"
+            HorizontalTextAlignment="Center"
+            Text="© Abdullah Tariq — All rights reserved"
+            TextColor="#4B5563" />
 
-
-
-    </ScrollView>
+    </Grid>
 
 </ContentPage>

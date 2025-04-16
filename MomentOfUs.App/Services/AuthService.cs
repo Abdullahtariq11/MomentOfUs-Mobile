@@ -11,7 +11,7 @@ namespace MomentOfUs.App.Services
     public class AuthService
     {
         private readonly HttpClient _httpClient;
-        private const string BaseUrl = "http://192.168.1.123:885/api/Users";
+        private const string BaseUrl = "http://192.168.183.118:885/api/Users";
 
         public AuthService(HttpClient httpClient)
         {

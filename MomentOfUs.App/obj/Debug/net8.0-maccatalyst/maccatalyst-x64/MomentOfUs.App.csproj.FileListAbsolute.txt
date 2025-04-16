@@ -320,3 +320,7 @@ C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MomentOfUs.App.pdb
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\MomentOfUs.App.genruntimeconfig.cache
 C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\MomentOfUs.App.dll
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\homeicon.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\logouticon.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\settingicon.png
+C:\Users\abdul\source\repos\Abdullahtariq11\MomentOfUs-Mobile\MomentOfUs.App\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\journalicon.png
