@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using MomentOfUs.App.Services;
 using Microsoft.Maui.Storage;
 using MomentOfUs.App.Views;
+using MomentOfUs.App.Services;
 
 namespace MomentOfUs.App.ViewModels
 {

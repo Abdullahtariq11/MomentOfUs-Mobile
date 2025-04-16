@@ -23,8 +23,13 @@ public static class MauiProgram
 
         builder.Services.AddHttpClient();
         builder.Services.AddSingleton<AuthService>();
+		builder.Services.AddSingleton<JournalService>();
         builder.Services.AddTransient<LoginViewModel>();
+        builder.Services.AddTransient<JournalViewModel>();
+        builder.Services.AddTransient<JournalDetailViewModel>();
+        builder.Services.AddTransient<JournalDetailPage>();
         builder.Services.AddTransient<LoginPage>();
+		builder.Services.AddTransient<JournalPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();
